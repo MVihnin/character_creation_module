@@ -6,17 +6,23 @@ print(message)
 
 
 def calculatesquareroot(number):
-    """ Вычисляет квадратный корень"""
+    """Вычисляет квадратный корень."""
     return sqrt(number)
 
 
 def calc(your_number):
+    """Проверяет значение числа."""
     if your_number <= 0:
         return
 
     print(f"Мы вычислили квадратный корень из введённого вами числа. "
-          f"Это будет: {calculatesquareroot(your_number)}")
+           "Это будет: {calculatesquareroot(your_number)}")
 
 
 print(message)
 calc(25.5)
+
+
+
+dsdsd = 1
+dsdsd_d = 2
